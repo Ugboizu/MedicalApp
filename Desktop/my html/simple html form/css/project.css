@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #FFFFFF;
+   
+}
+
+.team{
+    background-color: white;
+    border-bottom: #4792D6;
+    padding-top: 20px;
+
+}
+
+#example{
+    position: relative;
+    left: 153px;
+    text-decoration: none;
+    color: #2C4964;
+    margin-bottom: 50px;
+}
+
+.icon1{
+    margin-left: 75rem;
+    margin-top: -20px;
+}
+
+nav .gh{
+   color:#2C4964;
+   font-size: 25px;
+   font-weight: 700;
+   text-decoration: none;
+   padding-left: 154px;
+   margin-top: 23px;
+   font-family: "Poppins", sans-serif;
+   
+}
+
+#any{
+    margin-top: 15px;
+    margin-left: 150px;
+    
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul{
+    display: none;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #5A7893;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+ul li a:hover{
+    color:#1977CC;
+}
+
+li:hover > ul{
+    display: block;
+    position: absolute;
+}
+
+li:hover li{
+    float: none;
+}
+
+li:hover a{
+    background-color: white;
+    color: #5A7893;
+}
+
+li li:hover a{
+    background-color: white;
+    color: #5A7893;
+}
+
+
+.deep{
+    border-top: 0;
+}
+
+.drop{
+    left: 100%;
+    top: 0;
+}
+
+
+.button1{
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.butt2{
+    background-color: transparent;
+    font-style:"Raleway", sans-serif;
+    border:none;
+    font-size:15px;
+    color:#697E91;
+}
+
+#design1{
+    background-image: url(img/doctor\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    /* position: sticky; */
+    /* position:relative; */
+
+}
+
+#welcome{
+    font-size: 50px;
+    color:rgb(44,73,100);
+    margin-left: 150px;
+    padding-top: 50px;
+    
+}
+
+#wel{
+    color:rgb(44,73,100);
+    margin-left: 150px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+#b1{
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+    margin-left: 150px;
+    padding: 12px 40px 12px 40px;
+}
+
+.inn{
+    display: flex;
+    
+
+}
+.inn div{
+    height:40%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#design2{
+    background-color: #1977CC;
+    color: white;
+    margin-left: 150px;
+    margin-top: -100px;
+    height:25em;
+    width:17em;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    
+}
+
+#design2 h3{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+#design2 p{
+    margin-left: 25px;
+}
+
+#omo {
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #4792D6;
+    margin-left: 95px;
+    
+}
+
+#omo:hover{
+    background-color: #FFFFFF;
+    color:blue;
+}
+
+.card {
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: -60px;
+    background-color: white;
+   
+}
+
+#design3{
+    margin-left:2%;
+    margin-right:2%;
+    width: 200px;
+    height: 350px;
+
+}
+
+#design3 p{
+    padding: 25px 50px 25px 50px;
+    color: #444444;
+}
+
+#design3 h4{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #444444;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+#design4{
+    margin-right:2%;
+    width: 200px;
+    height: 350px;
+}
+
+#design4 p{
+    padding: 25px 52.1px 25px 55.5px;
+    color: #444444;
+}
+
+#design4 h4{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #444444;
+    text-align: center;
+    font-weight: 700;
+}
+
+#design5{
+    width: 200px;
+    height: 350px;
+}
+
+#design5 p{
+    padding: 25px 50px 25px 50px;
+    font-size: medium;
+    color: #444444;
+}
+
+#design5 h4{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #444444;
+    text-align: center;
+    font-weight: 700;
+}
+
+.general{
+    display: flex;
+    color: #2C4964; 
+
+
+}
+#imgg img{
+    position: relative;
+    width: 35rem;
+    height: 35rem; 
+}
+
+.icon2{
+    padding: 15px;
+    border: 2px solid #0e84f1;
+}
+.icon2:hover{
+    color: white;
+    background-color: #0e84f1;
+}
+
+.icon3{
+    padding: 20px;
+    border: 2px solid #0e84f1;
+}
+.icon3:hover{
+    color: white;
+    background-color: #0e84f1;
+}
+
+.icon4{
+    padding: 20px;
+    border: 2px solid #0e84f1;
+}
+.icon4:hover{
+    color: white;
+    background-color: #0e84f1;
+}
+
+
+.sub{
+    margin-left: 40px;
+
+}
+
+.sub h4{
+    font-size: 18px;
+}
+
+#move h3{
+    font-size: 30px;
+    color: #2C4964; 
+
+}
+
+.prof{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 8px;
+    background-color:#F1F7FD;
+    text-align: center;
+    
+}
+
+.box{
+    border: 1px solid transparent;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    display:block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#serve h2{
+    margin-left: 17em;
+    font-size: 32px ;
+    color: #2C4964; 
+    
+}
+
+#serve p{
+    color: #444492;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center; 
+    margin-left: 90px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.S{
+    background-color: white;
+    border: 2px solid #D5E1ED;
+    height: 15em;
+    padding-top: 10em;
+}
+
+.S h4 {
+    font-size: 25px;
+    color: #2C4964;
+}
+
+.S p{
+    color:#2C4964;
+}
+
+.services > div:hover{
+    background-color: blue;
+    color: white;
+}
+
+#appoint1 {
+    background-color: #F1F7FD;
+    font-family: "Raleway", sans-serif;
+}
+
+#appoint h2 {
+    margin-left: 16em;
+    padding-top: 2em;
+    font-size: 32px ;
+    color: #2C4964; 
+}
+
+#appoint p{
+    color: #565344;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 25    px;
+    font-size: 17px;
+}
+
+.appoint3 div {
+    width:32%;
+    display: inline-flex;
+    height: 40px;
+    color:#9B7592;
+}
+
+.appoint3 [type="name"] {
+    margin-left: 27.5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px;
+}
+
+.appoint3 [type="email"] {
+    margin-left: 5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px;
+}
+
+.appoint3 [type="text1"]{
+    margin-left: 5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px;
+}
+
+.appoint4 div{
+    width:32%;
+    display: inline-flex;
+    height: 40px;
+    color:#9B7592;
+}
+
+.appoint4 [type="date"] {
+    margin-left: 27.5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px
+    /* height: 12em; */
+}
+
+#department {
+    margin-left: 5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px
+    /* height: 12em; */
+}
+
+#doctor {
+    margin-left: 5%;
+    border: 1px solid #CED4DA;
+    width: 35em;
+    color:#9B7592;
+    font-size: 15px;
+    /* height: 30px; */
+}
+
+#message{
+    margin-left: 7.4em;
+    
+
+}
+
+#message [type="text"] {
+    border: 1px solid #CED4DA; 
+    width:96%;
+    color: #9B7592;
+    font-size: 15px;
+    line-height: 2em;
+    /* text-align: left; */
+    padding-bottom: 100px;
+}
+
+
+#A {
+    margin-left: 40%;
+    border: 1px solid #1977CC;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    color:#FFFFFF;
+    background-color: #1977CC;
+    width:15em;
+    font-size: 17px;
+}
+
+#A:hover {
+    background-color: #0e84f1;
+}
+
+#depart h3{
+    margin-left: 18em;
+    font-size: 32px ;
+    color: #2C4964; 
+    
+}
+
+#depart p{
+    color: #2C4964;
+    text-align: center;
+}
+

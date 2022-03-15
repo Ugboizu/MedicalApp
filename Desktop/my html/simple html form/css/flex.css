@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+#sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#sub > div {
+    width: 30%;
+    height: 100px;
+    margin: 1%;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+

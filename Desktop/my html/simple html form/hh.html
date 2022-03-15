@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section {
+        border: 1px solid black;
+        width: 31%;
+        display: inline-block;
+        text-align: center;
+      }
+      #margin {
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      img {
+        float: left;
+      }
+      #sample {
+        background-color: aquamarine;
+        height: 200px;
+        width: 200px;
+        position: sticky;
+        left: 80px;
+      }
+      #example {
+        width: 50px;
+        height: 60px;
+        background-color: red;
+        position: absolute;
+        top: 70px;
+        right: 40px;
+      }
+      #section {
+        background-color: blue;
+        position: sticky;
+        top: 70px;
+      }
+      #div1 {
+        background-color: chartreuse;
+        height: 70px;
+        width: 70px;
+        position: relative;
+        z-index: ;
+      }
+      #div2 {
+        background-color: darkmagenta;
+        height: 70px;
+        width: 70px;
+        margin-top: -50px;
+      }
+      #div3 {
+        background-color: brown;
+        height: 70px;
+        width: 70px;
+        margin-top: -120px;
+      }
+
+      .select ~ p {
+        background-color: chartreuse;
+      }
+      
+      #sample:hover{
+          background-color: blueviolet;
+      }
+     
+
+
+     .select p:first-child{
+         background-color: red;
+     }
+
+     .select p:last-child{
+         background-color: red;
+     }
+
+     .select p:nth-child(2){
+         background-color: pink;
+     }
+     
+     h1,h2,.select{
+         font-size: 18px;
+     }
+     .select p::before{
+        content: ;
+     }
+
+     #A {
+        background: url(doctor1.jpg);
+        background-size: 100px 80px;
+        background-repeat: no-repeat;
+     }
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="A">
+      <section>
+        <span>Today is hectic</span>
+      </section>
+      <section id="margin">
+        <span>Thursday is the day </span>
+      </section>
+      <section>
+        <span>This is CSS display in execution</span>
+      </section>
+      <section>
+        <p>
+          <img src="img/loginimage.jpg" height="100px" width="100px" />Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis
+          dolore magni, ea delectus sit provident minus libero voluptate rem,
+          quaerat laudantium error doloribus harum porro deleniti quam soluta
+          expedita.
+        </p>
+      </section>
+    </div>
+    <div id="section">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        illo, nesciunt in ratione temporibus ducimus pariatur omnis,
+        voluptatibus dignissimos est aliquid rerum velit qui corporis similique
+        eligendi minus facere aperiam!
+      </p>
+    </div>
+
+    <div id="sample"></div>
+
+    <a href="#" id="link">Sign up</a>
+    <a href="#" class="link">Sign up</a>
+    <a href="#" class="link">Sign up</a>
+    <a href="#" class="link">Sign up</a>
+    <a href="sign.html">Sign up</a>
+
+    <div id="example"></div>
+
+   <h1>
+       hello
+   </h1>
+   <h2>
+       hello world
+   </h2>
+
+    <div class="select">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+      <br />
+      <br />
+
+      <div>
+        <p>hello world</p>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        consectetur nam, minus sint aliquid excepturi doloremque tempora
+        asperiores quasi, cumque ratione voluptatem, aut dolorem eveniet tempore
+        repellat nobis sunt veniam?
+      </p>
+      
+    </div>
+
+    <p>i am adjacent to select</p>
+
+    <p>i am adjacent to select</p>
+
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+  </body>
+</html>

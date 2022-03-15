@@ -1,0 +1,35 @@
+body{
+    background-color: seagreen
+}
+
+.box{
+    margin-left: 515px;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    background-color: skyblue;
+    color: black;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background-color: pink ;
+    color: blue;
+}

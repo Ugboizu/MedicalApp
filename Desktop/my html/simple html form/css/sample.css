@@ -1,0 +1,67 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+
+#logo {
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    
+}
+
+#logo h1 {
+    
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+}
+
+nav {
+    background-color: darkkhaki;
+    display: block;
+    text-align: right;
+    position: sticky;
+
+}
+
+nav div ul li {
+    padding: 5px 10px 5px 10px;
+    display: inline;
+    text-align: right;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 70px;
+    
+}
+
+#home{
+    background-image: url(img/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#space {
+    margin-left: 80px;
+    color: rgb(237, 255, 196) ;
+    font-size: 40px;
+    padding-top: 3em;
+
+}
+
+#know{
+    margin-left: 80px;
+    color: rgb(237, 255, 196);
+    font-size: 30px;
+    font-style: italic;
+}
